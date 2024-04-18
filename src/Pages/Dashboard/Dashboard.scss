@@ -1,0 +1,71 @@
+.dashbaord-wrapper{
+    .btn-wrapper{
+        padding: 10px;
+        min-width: 170px;
+        font-size: 16px;
+        line-height: 20px;
+        border-radius: 0;
+        text-transform: capitalize;
+        margin-bottom: 16px;
+        &.users-btn{
+            background-color: #FFBF47;
+            color: #07063B;
+        }
+        &.users-group-btn{
+            background-color: rgba(255, 255, 255 , .13);
+            color: #FFBF07;
+        }
+    }
+    .status-wrapper{
+        display: flex;
+        gap: 16px;
+        .status{
+            padding: 4px 8px 4px 4px;
+            font-size: 16px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            &.defination-status{
+                background-color: rgba(255, 255, 255 , .14);
+            }
+        }
+    }
+    .add-user{
+        background-color: rgba(255, 255, 255 , .14);
+        padding: 4px 8px 4px 4px;
+        width: 214px;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #fff;
+        font-size: 16px;
+    }
+    .table-wrapper{
+        background-color: transparent;
+        color: #fff;
+        .MuiTable-root{
+            border-collapse: separate;
+            border-spacing: 0 15px;
+            .MuiTableHead-root{
+                background-color: rgba(255, 191, 7, .16);
+                .MuiTableRow-root{
+                    .MuiTableCell-root{
+                        color: #fff;
+                        border: none
+                    }
+                }
+            }
+            .MuiTableBody-root{
+                background-color: rgba(255, 255, 255 , .03);
+                .MuiTableRow-root{
+                    .MuiTableCell-root{
+                        color: #fff;
+                        border: none
+                    }
+                }
+            }
+        }
+    }
+}
